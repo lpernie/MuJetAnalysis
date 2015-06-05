@@ -1,5 +1,7 @@
 import FWCore.ParameterSet.Config as cms
 
+from TrackingTools.TransientTrack.TransientTrackBuilder_cfi import *
+
 cutFlowAnalyzer = cms.EDAnalyzer('CutFlowAnalyzer',
     analyzerDebug = cms.int32(0),
     fillGenLevel = cms.bool(True),
